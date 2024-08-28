@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 50%;
+    height: auto;
+    margin: 15px;
+}
+
+.right-column {
+    flex: 1;
+}
+
+.full-width-image {
+    width: 100%;
+    height: auto;
+}
+
